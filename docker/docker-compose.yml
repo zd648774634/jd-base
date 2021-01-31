@@ -2,7 +2,7 @@ version: "2.0"
 services:
   # 第1个容器
   jd1:
-    image: evinedeng/jd  # 如果要从gitee更新脚本，则为：evinedeng/jd:gitee
+    image: zd648774634/jd  # 如果要从gitee更新脚本，则为：evinedeng/jd:gitee
     container_name: jd1
     restart: always
     tty: true
